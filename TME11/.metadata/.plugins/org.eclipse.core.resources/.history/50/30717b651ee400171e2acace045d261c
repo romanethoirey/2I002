@@ -1,0 +1,14 @@
+import java.io.*;
+import javax.imageio.*;
+
+public class TestFigure {
+
+	public static void main(String[] args) {
+		int dim1=400,dim2=400;
+		GroupeDeFigure dessin = new GroupeDeFigure(dim1, dim2);
+
+		
+
+	}
+
+}

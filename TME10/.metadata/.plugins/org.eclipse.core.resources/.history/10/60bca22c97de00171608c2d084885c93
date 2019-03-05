@@ -1,0 +1,27 @@
+
+public class Ingredient {
+
+	private String nom;
+	
+	public Ingredient(String nom){
+		this.nom=nom;
+	}
+	
+	public String toString(){
+		return nom;
+	}
+	
+	public boolean equals(Object o){
+		if(this==o){
+			return true;
+		}
+		if(o==null){
+			return false;
+		}
+		Ingredient s = (Ingredient) o;
+		if(this==s){
+			return true; 
+		}
+		return false;
+	}
+}

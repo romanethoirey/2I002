@@ -1,0 +1,8 @@
+
+public class Nourriture {
+
+	public Nourriture() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

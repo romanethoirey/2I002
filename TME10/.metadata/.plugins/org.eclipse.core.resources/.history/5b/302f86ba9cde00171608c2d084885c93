@@ -1,0 +1,8 @@
+
+public class Recette {
+
+	public Recette() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

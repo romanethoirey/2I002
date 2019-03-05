@@ -1,0 +1,8 @@
+
+public class Velo extends SansMoteur implements VehiculeARoue{
+
+	public Velo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

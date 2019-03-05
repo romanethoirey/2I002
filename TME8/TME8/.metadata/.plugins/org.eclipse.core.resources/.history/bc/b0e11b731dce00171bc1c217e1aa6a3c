@@ -1,0 +1,21 @@
+
+public class TestVehicule {
+
+	public static void main(String[] args) {
+		
+		Vehicule v1 = new Velo(17);
+		Vehicule v2 = new Voiture(40.5, 5);
+		Vehicule v3 = new Camion(100.0, 100.0);
+		System.out.println("Vehicule :"+v1+v2+v3);
+		System.out.println();
+		v2.approvisionner(35.0);
+		v3.approvisionner(70.0);
+		System.out.println();
+		v1.transporter("Dijon","Valance");
+		v2.transporter(5,300);
+		v3.transporter("tuiles",1000);
+		
+
+	}
+
+}

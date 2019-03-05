@@ -1,0 +1,15 @@
+
+public class Voiture extends AMoteur implements VehiculeARoue {
+
+	private int nbPlace;
+	
+	public Voiture(int capacite) {
+		super(capacite);
+		this.nbPlace=nbPlace;
+	}
+	
+	public String toString(){
+		return "Voiture "+id+" a "+nbPlace+" places";
+	}
+
+}

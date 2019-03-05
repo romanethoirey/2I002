@@ -1,0 +1,12 @@
+
+public class Robinet extends Reservoir{
+	
+	
+	public Robinet(Ingredient i) {
+		if(Math.random()<0.005)
+		super(i,Double.POSITIVE_INFINITY);
+	}
+	
+	
+
+}

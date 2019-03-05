@@ -1,0 +1,26 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+
+public class GroupeDeFigure {
+	
+	private ArrayList<Figure> figure;
+	private int dim1;
+	private int dim2;
+
+	public GroupeDeFigure(int dim1, int dim2) {
+		this.dim1=dim1;
+		this.dim2=dim2;
+		figure = new ArrayList<Figure>();
+	}
+	
+	public void add(Figure f){
+		figure.add(f);
+	}
+	
+	public Figure getFigure(int id){
+		if(figure.get(id))
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class WMarchandise extends Wagon {
+	
+	public WMarchandise(int num,String marque){
+		super(num,marque);
+	}
+	
+	public String toString(){
+		return "Wagon Marchandise "+numeroserie+" "+marque;
+	}
+}

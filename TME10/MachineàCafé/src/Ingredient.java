@@ -1,0 +1,31 @@
+
+public abstract class Ingredient {
+
+	private String nom;
+	
+	public Ingredient(String nom){
+		this.nom=nom;
+	}
+	
+	public String toString(){
+		return nom;
+	}
+	
+	public boolean equals(Object o){
+		if(this==o){
+			return true;
+		}
+		if(o==null){
+			return false;
+		}
+		
+		if(o.getClass()!=getClass()){
+			return false;
+		}
+		Ingredient s = (Ingredient) o;
+		if(nom==s.nom){
+			return true; 
+		}
+		return false;
+	}
+}

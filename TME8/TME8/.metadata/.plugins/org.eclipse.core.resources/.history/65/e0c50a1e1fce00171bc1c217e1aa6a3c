@@ -1,0 +1,7 @@
+
+public abstract class Wagon extends ElemTrain{
+	
+	public Wagon(int num,String marque){
+		super(num,marque);
+	}
+}

@@ -1,0 +1,15 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.util.ArrayList;
+
+
+public class Polygone extends Figure{
+
+	private ArrayList<Point> polygone;
+	private boolean closed;
+	
+	public Polygone() {
+		super();
+	}
+
+}

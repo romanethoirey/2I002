@@ -1,0 +1,10 @@
+
+public class Robinet extends Reservoir{
+	
+	private Reservoir r;
+	
+	public Robinet(Ingredient i) {
+		super(i,Double.POSITIVE_INFINITY);
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class SansMoteur {
+
+	public SansMoteur() {
+		super();
+	}
+
+}

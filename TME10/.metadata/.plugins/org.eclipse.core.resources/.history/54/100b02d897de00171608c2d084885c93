@@ -1,0 +1,10 @@
+
+public class RecuperationIngredientException {
+	
+	private String message;
+	
+	public RecuperationIngredientException(String message) {
+		
+	}
+
+}

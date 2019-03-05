@@ -1,0 +1,8 @@
+
+public class Polygone extends Figure{
+
+	public Polygone() {
+		
+	}
+
+}

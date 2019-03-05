@@ -1,0 +1,8 @@
+
+public class Lieu {
+
+	public Lieu() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

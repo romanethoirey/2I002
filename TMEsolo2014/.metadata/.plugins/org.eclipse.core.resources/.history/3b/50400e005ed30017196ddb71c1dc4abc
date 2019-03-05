@@ -1,0 +1,11 @@
+
+public class EnfantGentil {
+
+	public EnfantGentil() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public void agir(){
+		
+	}
+}

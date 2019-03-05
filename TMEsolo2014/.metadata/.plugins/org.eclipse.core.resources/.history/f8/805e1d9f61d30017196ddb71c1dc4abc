@@ -1,0 +1,16 @@
+
+public class EnfantGentil extends Enfant {
+
+	public EnfantGentil(int x,int y, Cours c) {
+		super(x,y,c);
+	}
+	
+	public void agir(){
+		x=(x+1)%taille;			
+		
+	}
+	
+	public boolean estMechant(){
+		return false;
+	}
+}

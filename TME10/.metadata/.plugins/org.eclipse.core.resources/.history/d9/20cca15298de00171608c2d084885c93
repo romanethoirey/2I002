@@ -1,0 +1,17 @@
+
+public class Reservoir {
+
+	private Ingredient i;
+	private int capacite;
+	private int niveau;
+	
+	public Reservoir(int capacite) {
+		this.capacite=capacite;
+		this.niveau=capacite;
+	}
+	
+	public Ingredient getI(){
+		return i;
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class EnfantGentil extends Enfant {
+
+	public EnfantGentil(int x,int y, Cours c) {
+		super(x,y,c);
+	}
+	
+	public void agir(){
+		y=(x+1>c.getTaille()) ? y+1:y;
+		x=(x+1)%c.getTaille(); 
+		this.getActif()=false;
+		
+	}
+	
+	public boolean estMechant(){
+		return false;
+	}
+}

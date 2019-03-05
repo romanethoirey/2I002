@@ -1,0 +1,14 @@
+
+public class Recette {
+	
+	private Ingredient[] tabingredient;
+	private int[] quantite;
+	private double prix;
+	private String nom;
+
+	public Recette(String nom, double prix) {
+		this.nom=nom;
+		this.prix=prix;
+	}
+
+}

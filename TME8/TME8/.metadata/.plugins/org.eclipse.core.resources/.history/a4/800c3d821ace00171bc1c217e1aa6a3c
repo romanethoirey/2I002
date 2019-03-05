@@ -1,0 +1,8 @@
+
+public class Voiture extends AMoteur implements VehiculeARoue {
+
+	public Voiture() {
+		super();
+	}
+
+}

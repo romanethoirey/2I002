@@ -1,0 +1,45 @@
+import java.awt.Color;
+import java.awt.Graphics;
+
+
+public class Point extends Figure{
+
+	private int x;
+	private int y;
+	
+	public Point(int x,int y, Color couleur) {
+		super(couleur);
+		this.x=x;
+		this.y=y;
+	}
+	
+	public Point(int x,int y){
+		super(Color.black);
+		this.x=x;
+		this.y=y;
+	}
+
+	public int getX(){return x;}
+	public int getY(){return y;}
+	
+	public void setPoint(Point p){
+		p.getColor();
+		x=p.x;
+		y=p.y;
+		
+	}
+	
+	public void move(int deltaX, int deltaY){
+		x=deltaX;
+		y=deltaY;
+	}
+	
+	public void draw(Graphics g) {
+        // une ligne à ajouter ici pour dessiner de la bonne couleur
+        
+		g.setColor(getColor());
+
+        g.drawLine(x, y, x, y);
+ }
+	
+}

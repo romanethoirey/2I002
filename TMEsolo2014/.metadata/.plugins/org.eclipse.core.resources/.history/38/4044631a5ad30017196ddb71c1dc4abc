@@ -1,0 +1,9 @@
+import java.util.ArrayList;
+
+public class Cours {
+	private int taille;
+	private int nbIteration;
+	private ArrayList<Personne> p;
+	private ArrayList<Personne> toilettes;
+	private ArrayList<Personne> prison;
+}

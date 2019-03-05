@@ -1,0 +1,8 @@
+
+public abstract class Enfant {
+
+	public Enfant() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,14 @@
+
+public class Fourmi {
+	private Point position;
+	private Point direction;
+	private int id;
+	public static int cpt =0;
+	private Fourmiliere fourmiliere;
+	private boolean possedeNourriture;
+	
+	public Fourmi() {
+		
+	}
+
+}

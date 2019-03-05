@@ -1,0 +1,11 @@
+
+public abstract class Personne {
+	protected int x;
+	protected int y;
+	protected Cours c;
+	protected boolean actif;
+	public Personne() {
+		
+	}
+
+}

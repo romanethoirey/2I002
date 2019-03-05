@@ -1,0 +1,11 @@
+
+public class WVoyageurs extends Wagon{
+	
+	public WVoyageurs(int num,String marque){
+		super(num,marque);
+	}
+	
+	public String toString(){
+		return "Wagon Voyageurs"+numeroserie+" "+marque;
+	}
+}

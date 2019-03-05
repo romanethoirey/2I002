@@ -1,0 +1,34 @@
+import java.io.*;
+import javax.imageio.*;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.util.ArrayList;
+
+
+public class TestFigure {
+
+	public static void main(String[] args) {
+		int dim1=400,dim2=400;
+		GroupeDeFigure dessin = new GroupeDeFigure(dim1, dim2);
+
+		Point f1=new Point(50,50);
+		Figure f2=new Point(100,50);
+		Figure f3=new Point(100,100);
+		Figure f4=new Point(50,100);
+		
+		Polygone f5=new Polygone(Color.red,true);
+		
+		f5.add(f1);
+		
+		BufferedImage im = dessin.makeImage();
+
+		String filename = "test.png";
+		try {
+		     ImageIO.write(im, "png", new File(filename));
+		} catch (IOException e) {
+		     e.printStackTrace();
+		}
+
+	}
+
+}

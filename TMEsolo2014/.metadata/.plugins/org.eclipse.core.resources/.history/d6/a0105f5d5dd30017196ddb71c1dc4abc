@@ -1,0 +1,12 @@
+
+public abstract class Enfant extends Personne {
+	protected int id;
+	public final int cpt = 0;
+	public Enfant(int x,int y, Cours c) {
+		super(x,y,c);
+		id=cpt;
+		cpt++;
+	}
+	public abstract void agir();
+
+}

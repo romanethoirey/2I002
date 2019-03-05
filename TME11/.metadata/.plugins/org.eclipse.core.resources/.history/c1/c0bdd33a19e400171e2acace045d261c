@@ -1,0 +1,16 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import java.util.ArrayList;
+
+
+public class Polygone extends Figure{
+
+	private ArrayList<Point> polygone;
+	private boolean closed;
+	
+	public Polygone(Color couleur, boolean closed) {
+		super(couleur);
+		this.closed=closed
+	}
+
+}

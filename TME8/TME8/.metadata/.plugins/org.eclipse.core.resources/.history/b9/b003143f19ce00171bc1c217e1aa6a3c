@@ -1,0 +1,10 @@
+
+public class Velo extends SansMoteur implements VehiculeARoue{
+
+	public Velo() {
+		super();
+	}
+	public void rouler(){
+		
+	}
+}

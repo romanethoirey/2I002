@@ -1,0 +1,13 @@
+import java.util.ArrayList; 
+
+public class Machine {
+
+	private ArrayList<Recette> recettes;
+	private ArrayList<Reservoir> reservoirs;
+	
+	
+	public Machine() {
+		
+	}
+
+}

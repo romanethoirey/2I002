@@ -1,0 +1,11 @@
+
+public class Nourriture extends Element{
+
+	public Nourriture(Point p,int val) {
+		super(p,(int)Math.random()*(12-1+1-1));
+	}
+	
+	public void next(Monde m){
+		
+	}
+}

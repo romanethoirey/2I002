@@ -1,0 +1,8 @@
+
+public class RecuperationIngredientException {
+
+	public RecuperationIngredientException() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

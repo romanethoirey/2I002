@@ -1,0 +1,14 @@
+
+public class Robinet extends Reservoir{
+	
+	
+	public Robinet(Ingredient i) throws RecuperationIngredientException{
+		if(Math.random()<0.005){
+			throw new RecuperationIngredientException("Deffaillant");
+		}
+		super(i,Double.POSITIVE_INFINITY);
+	}
+	
+	
+
+}

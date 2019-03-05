@@ -1,0 +1,10 @@
+public class Surveillant extends Personne {
+
+	public Surveillant(int x,int y ,Cours c) {
+		super(x,y,c);
+	}
+	
+	public void agir(){
+		
+	}
+}

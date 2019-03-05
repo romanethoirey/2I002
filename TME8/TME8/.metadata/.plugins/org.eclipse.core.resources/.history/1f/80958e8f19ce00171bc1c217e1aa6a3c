@@ -1,0 +1,14 @@
+
+public class Velo extends SansMoteur implements VehiculeARoue{
+
+	public Velo() {
+		super();
+	}
+	public void rouler(double distance){
+		this.distance+=distance;
+	}
+	
+	public String toString(){
+		return "Velo "+id;
+	}
+}

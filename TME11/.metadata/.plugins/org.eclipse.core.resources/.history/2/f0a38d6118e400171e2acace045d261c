@@ -1,0 +1,10 @@
+
+public class Polygone extends Figure{
+
+	private ArrayList<Point>
+	
+	public Polygone() {
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class AMoteur {
+
+	public AMoteur() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public abstract class Enfant extends Personne {
+
+	public Enfant(int x,int y, Cours c) {
+		super(x,y,c);
+	}
+	public abstract void agir();
+
+}

@@ -1,0 +1,10 @@
+
+public class Robinet {
+	
+	private Reservoir r;
+	
+	public Robinet(Reservoir r) {
+		
+	}
+
+}

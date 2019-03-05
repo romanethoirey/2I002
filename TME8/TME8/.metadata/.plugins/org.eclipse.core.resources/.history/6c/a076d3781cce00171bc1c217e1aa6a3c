@@ -1,0 +1,22 @@
+
+public class Voiture extends AMoteur implements VehiculeARoue {
+
+	private int nbPlace;
+	
+	public Voiture(int capacite,int nbPlace) {
+		super(capacite);
+		this.nbPlace=nbPlace;
+	}
+	
+	public String toString(){
+		return "Voiture "+id+" a "+nbPlace+" places";
+	}
+	
+	public void rouler(double distance){
+		this.distance+=distance;
+	}
+	
+	public void transporter(int n, int km){
+		System.out.println("la voiture "+id+ " a transporte"+n+" personnes sur "+km+" km");
+	}
+}
