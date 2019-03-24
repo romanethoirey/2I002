@@ -1,4 +1,4 @@
-#2I002
+2I002
 
  Cette UE est une introduction à la POO. Les concepts d'objet et de classe, l'encapsulation, le polymorphisme et l'héritage seront les notions principales abordées et illustrées avec JAVA.
 
